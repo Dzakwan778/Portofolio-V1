@@ -1,0 +1,104 @@
+:root,
+.light {
+  --background: #FFFFFF;
+  --background-secondary: #F8FAFC;
+  --surface: #FFFFFF;
+  --surface-elevated: #FFFFFF;
+  --glass: rgba(255, 255, 255, 0.65);
+  
+  --primary: #4CCBFF;
+  --primary-hover: #69D7FF;
+  
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #94A3B8;
+  
+  --border: rgba(15, 23, 42, 0.08);
+  --border-hover: rgba(76, 203, 255, 0.25);
+  
+  --shadow-small: 0 4px 12px rgba(0, 0, 0, 0.10);
+  --shadow-medium: 0 12px 32px rgba(0, 0, 0, 0.18);
+  --shadow-large: 0 24px 64px rgba(0, 0, 0, 0.25);
+}
+
+.dark {
+  --background: #0F1117;
+  --background-secondary: #151922;
+  --surface: #1B2230;
+  --surface-elevated: #232C3D;
+  --glass: rgba(35, 44, 61, 0.65);
+  
+  --primary: #4CCBFF;
+  --primary-hover: #69D7FF;
+  
+  --text-primary: #F4F7FB;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+  
+  --border: rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(76, 203, 255, 0.25);
+
+  --shadow-small: 0 4px 12px rgba(0, 0, 0, 0.10);
+  --shadow-medium: 0 12px 32px rgba(0, 0, 0, 0.18);
+  --shadow-large: 0 24px 64px rgba(0, 0, 0, 0.25);
+}
+
+.amoled {
+  --background: #000000;
+  --background-secondary: #000000;
+  --surface: #090909;
+  --surface-elevated: #090909;
+  --glass: rgba(9, 9, 9, 0.65);
+  
+  --primary: #4CCBFF;
+  --primary-hover: #69D7FF;
+  
+  --text-primary: #F4F7FB;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+  
+  --border: rgba(255, 255, 255, 0.05);
+  --border-hover: rgba(76, 203, 255, 0.25);
+
+  --shadow-small: 0 4px 12px rgba(255, 255, 255, 0.02);
+  --shadow-medium: 0 12px 32px rgba(255, 255, 255, 0.05);
+  --shadow-large: 0 24px 64px rgba(255, 255, 255, 0.08);
+}
+
+.midnight {
+  --background: #09111D;
+  --background-secondary: #060B14;
+  --surface: #101827;
+  --surface-elevated: #162032;
+  --glass: rgba(16, 24, 39, 0.65);
+  
+  --primary: #4CCBFF;
+  --primary-hover: #69D7FF;
+  
+  --text-primary: #F4F7FB;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+  
+  --border: rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(76, 203, 255, 0.25);
+
+  --shadow-small: 0 4px 12px rgba(0, 0, 0, 0.20);
+  --shadow-medium: 0 12px 32px rgba(0, 0, 0, 0.30);
+  --shadow-large: 0 24px 64px rgba(0, 0, 0, 0.40);
+}
+
+/* Global transitions for theme switching */
+body, 
+.theme-transition, 
+.theme-transition *, 
+.theme-transition *::before, 
+.theme-transition *::after {
+  transition-property: background-color, border-color, color, fill, stroke, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Wanzt Store Bot",
+  "slug": "wanzt-store-bot",
+  "shortDescription": "Bot WhatsApp untuk toko online yang memiliki fitur otomatisasi order, payment, dan notifikasi.",
+  "technologies": ["Node.js", "Baileys", "MongoDB", "Express.js"],
+  "github": "https://github.com",
+  "demo": "",
+  "status": "completed",
+  "thumbnail": "https://placehold.co/600x400/1e293b/4ac8ff?text=Wanzt+Store+Bot",
+  "isPrivate": false,
+  "order": 1
+}

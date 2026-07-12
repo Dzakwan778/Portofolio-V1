@@ -1,0 +1,6 @@
+{
+  "name": "WanMa2 Portofolio",
+  "description": "A fully migrated modern web portfolio of WanMa2 built on React (Vite), Tailwind CSS (v4), and TypeScript, featuring sleek card systems, custom progress meters, and smooth horizontal scrolling marquee bars.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

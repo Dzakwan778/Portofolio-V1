@@ -1,0 +1,12 @@
+{
+  "title": "Aplikasi Pencatatan Keuangan",
+  "slug": "finance-app",
+  "shortDescription": "Aplikasi Android untuk pencatatan keuangan UMKM yang sederhana dan mudah digunakan.",
+  "technologies": ["Kotlin", "Firebase", "Room DB", "Material 3"],
+  "github": "https://github.com",
+  "demo": "",
+  "status": "completed",
+  "thumbnail": "https://placehold.co/600x400/f8fafc/4ac8ff?text=Finance+App+UI",
+  "isPrivate": false,
+  "order": 3
+}

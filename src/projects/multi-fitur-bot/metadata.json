@@ -1,0 +1,12 @@
+{
+  "title": "Bot WhatsApp Multi-Fitur",
+  "slug": "multi-fitur-bot",
+  "shortDescription": "Bot WhatsApp serbaguna dengan berbagai fitur seperti menu, AI chat, download, dan lainnya.",
+  "technologies": ["Node.js", "Baileys", "OpenAI API", "MySQL"],
+  "github": "https://github.com",
+  "demo": "",
+  "status": "completed",
+  "thumbnail": "https://placehold.co/600x400/0b141a/4ac8ff?text=WhatsApp+Bot+UI",
+  "isPrivate": false,
+  "order": 2
+}
