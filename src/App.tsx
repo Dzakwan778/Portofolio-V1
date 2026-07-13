@@ -34,10 +34,10 @@ export default function App() {
 
         <Navbar activeNameIndex={activeNameIndex} />
         <HeroSection onIndexChange={setActiveNameIndex} />
-        {/* <ScrollVelocity 
+        <ScrollVelocity 
           texts={["Creative Developer", "Interactive Architect", "Frontend Engineer", "UI Designer"]} 
           velocity={3}
-        /> */}
+        />
         <AboutSection />
         <SkillsSection />
         <ProjectSection />
